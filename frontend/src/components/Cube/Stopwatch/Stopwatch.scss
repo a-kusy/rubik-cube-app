@@ -1,0 +1,22 @@
+/* Mixin's */
+@mixin transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.wrapper {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper button {
+  width: 100px;
+  margin: 10px;
+  height: 35px;
+  text-align: center;
+
+}

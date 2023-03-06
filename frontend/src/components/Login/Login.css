@@ -1,0 +1,87 @@
+.cont-flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    height: 80%;
+}
+
+#login {
+    flex: 50%;
+    height: 60%;
+}
+
+#signup {
+    flex: 50%;
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    height: 60%;
+}
+
+.form-cont {
+    text-align: center;
+}
+
+.input {
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: #1d1d1d;
+    height: 30px;
+    margin: 10px;
+    padding: 5px 10px;
+    color: white;
+    width: 60%;
+}
+
+.inputChange {
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: #1d1d1d;
+    height: 30px;
+    margin: 10px;
+    padding: 5px 10px;
+    color: white;
+    width: 30%;
+    min-width: 150px;
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+.button {
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    color: #1d1d1d;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.buttonChange {
+    width: 170px;
+    margin: 10px;
+    padding: 10px;
+    color: #1d1d1d;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.button:hover, .buttonChange:hover{
+    background-color: gainsboro;
+}
+
+@media only screen and (max-width: 720px) {
+    .cont-flex{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #signup {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+    }
+
+    #login{
+        width: 100%;
+    }
+  }

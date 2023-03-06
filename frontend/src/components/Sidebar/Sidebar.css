@@ -1,0 +1,74 @@
+#header {
+    flex: 10%;
+    background-color: #1d1d1d !important;
+    height: 100%;
+}
+
+#header .pro-sidebar {
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    color: white;
+}
+
+#header .closemenu {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 22px;
+    top: 55px;
+    cursor: pointer;
+}
+
+
+
+#header .pro-sidebar.collapsed {
+    width: 80px;
+    min-width: 80px;
+}
+
+#header .pro-sidebar-inner {
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+    background-color: #5a5a58;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+    font-size: 20px;
+    padding: 0 35px;
+    font-weight: bold;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    margin: 10px 0px;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    border-radius: 3px;
+    /* background-color: #6c6b69; */
+    background-color: #5a5a58;
+}
+
+#header .logo {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    html {
+        overflow: hidden;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

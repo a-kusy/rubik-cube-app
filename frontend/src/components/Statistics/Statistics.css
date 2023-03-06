@@ -1,0 +1,29 @@
+.stat-flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.statistics {
+    flex: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+}
+
+.left-th {
+    text-align: right;
+}
+
+#chart {
+    margin: 40px 10px;
+}
